@@ -4,39 +4,9 @@
 <head>
     <title>PDF in HTML</title>
 </head>
-<style>
-    .pdf {
-        width: 100%;
-        aspect-ratio: 4 / 3;
-    }
-
-    .pdf,
-    html,
-    body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-    }
-
-    h1,
-    h3 {
-        text-align: center;
-    }
-
-    h1 {
-        color: green;
-    }
-</style>
 
 <body>
-
-    <h1>GeeksforGeeks</h1>
-    <h3>Embedding the PDF file Using Object Tag</h3>
-    <object class="pdf" 
-            data="file:///Users/plew/Downloads/Resume%20(1).pdf"
-            width="300"
-            height="400">
-    </object>
+    <iframe src="Resume.pdf" frameborder="0"></iframe>
 </body>
 
 </html>
